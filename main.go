@@ -15,7 +15,7 @@ var TIMEOUT = timeHeuristic
 
 func main() {
 	if err := MakeRequest(); err != nil {
-		SendAlert("外包项目挂了哟")
+		SendAlert("upyingtou挂了哟")
 	}
 }
 
